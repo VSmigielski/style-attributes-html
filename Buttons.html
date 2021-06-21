@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="alert('Button was clicked')" autofocus>Autofocus Button</button>
+    <button type="button" disabled>Unclickable Button</button>
+    <button type="button" onclick="this.style.backgroundColor = '#8B0000'">Change color on click Button</button>
+    <p onclick="this.style.backgroundColor = '#8B0000'">
+        Example text - click here!
+    </p>
+    <img src="IMG_1032.JPG" height="300" onclick="clickFunction()"/>
+
+    <!-- This is a comment tag -->
+    <!-- 
+        Multi line comment
+     -->
+
+     <!-- <p>Example text</p> -->
+    <script>
+        function clickFunction() {
+            alert("Image was clicked!");
+        }
+    </script>
+</body>
+</html>
